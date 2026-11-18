@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Team | Introduction</title>
+
+  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+</head>
+<body>
+
+  <!-- Background -->
+  <div class="background"></div>
+  <div class="overlay"></div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <a href="/dashboard" class="logo">OUR<span>PRI.</span></a>
+
+    <nav>
+      <a href="/dashboard" class="active">Home</a>
+      <a href="/profile">Profile</a>
+      <a href="/login">Logout</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="team-section">
+
+    <div class="section-heading">
+      <span class="eyebrow">GET TO KNOW US</span>
+
+      <h1>Meet Our<span>PRI.</span></h1>
+
+      <p>
+        Enam individu, satu tujuan. Kenali orang-orang
+        di balik perjalanan kami.
+      </p>
+    </div>
+
+    <!-- Team Members -->
+    <div class="team-grid">
+
+      <div class="team-card">
+        <!-- <img src="https://i.pravatar.cc/400?img=12" alt="Andi"> -->
+
+        <div class="card-info">
+          <span class="role">Atmint Akbar PRI</span>
+          <h2>Bryant Morax</h2>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <!-- <img src="https://i.pravatar.cc/400?img=13" alt="Budi"> -->
+
+        <div class="card-info">
+          <span class="role">Mentri Seni Budaya PRI</span>
+          <h2>Nathan Sutanto</h2>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <!-- <img src="https://i.pravatar.cc/400?img=44" alt="Citra"> -->
+
+        <div class="card-info">
+          <span class="role">Badan Inspeksi Tinggi PRI</span>
+          <h2>Wilson Joshua</h2>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <!-- <img src="https://i.pravatar.cc/400?img=47" alt="Dinda"> -->
+
+        <div class="card-info">
+          <span class="role">Panglima Sokartis PRI</span>
+          <h2>Jayden Luo</h2>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <!-- <img src="https://i.pravatar.cc/400?img=14" alt="Eko"> -->
+
+        <div class="card-info">
+          <span class="role">CEO Keuangan PRI</span>
+          <h2>Chirstian Fernando</h2>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <!-- <img src="https://i.pravatar.cc/400?img=15" alt="Fajar"> -->
+
+        <div class="card-info">
+          <span class="role">Kepala Keamanan PC PRI</span>
+          <h2>Henokh Giovan Hananto</h2>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <p>© 2026 Our Team. Made with passion.</p>
+    </footer>
+
+  </main>
+
+</body>
+</html>
